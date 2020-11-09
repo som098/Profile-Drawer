@@ -12,6 +12,41 @@
   transition: transform 0.3s ease-out;
 }
 
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #521751;
+}
+
+.button1:hover {
+  background-color: #521751;
+  color: white;
+}
+
+.profile {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  background-color: #521751;
+}
+
 .side-drawer.open {
   transform: translateX(0);
 }

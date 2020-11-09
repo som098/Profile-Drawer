@@ -39,10 +39,13 @@ class App extends Component {
            </label>
            </div>
           <div className="Getbill">
-          <Button as="input" type="button" value="Get Bill" className="btn1"/>
+          <Button as="input" type="button" value="Get Bill" className="button button1"/>
           </div>
            <div className="ChangeMeter">
-          <Button variant="Secondry" className="btn2">Change Meter</Button>
+          <Button variant="Secondry" className="button button1 btn2">Change Meter</Button>
+           </div>
+           <div className="ChangeMeter">
+          <Button variant="Secondry" className="button button1 btn2">Change Details</Button>
            </div>
          </div>
       </div>
