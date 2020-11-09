@@ -21,9 +21,6 @@ const sideDrawer = props => {
         <li>
           <p>Quarter: (From Backend) </p>
         </li>
-        <li>
-        <button class="button button1">Sign Out</button>
-        </li>
       </ul>
     </nav>
   );

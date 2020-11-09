@@ -12,7 +12,7 @@ const toolbar = props => (
         <div className="toolbar__logo"><a href="/">ELECTRIC METER READING SOFTWARE</a></div>
         <div className="spacer" />
         <div className="toolbar_navigation-items">
-            
+        <button style={{backgroundColor:"white",color:"#521751"}} class="button">Sign Out</button>
         </div>
     </nav>
   </header>
