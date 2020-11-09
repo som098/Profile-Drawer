@@ -1,0 +1,36 @@
+.middle{
+    padding-top: 41.345177664974619vh;
+    padding-left: 41.4722222222222223vw;
+}
+.text-area{
+
+width: 200px;
+height: 30px;
+align-items: center;
+text-align: center;
+}
+.Getbill{
+
+    padding-top: 4.345177664974619vh;
+    padding-left: 45.4722222222222223vw;
+
+}
+.btn1{
+    width: 100px;
+    height: 30px;
+    border-radius: 0px;
+    outline: none;
+    border-width: 1px;
+}
+.btn2{
+    width: 205px;
+    height: 30px;
+    border-radius: 0px;
+    border-width: 1px;
+    outline: none;
+}
+.ChangeMeter{
+
+    padding-top: 4.345177664974619vh;
+    padding-left: 41.4722222222222223vw;
+}
