@@ -48,6 +48,9 @@ class App extends Component {
            <div className="ChangeMeter">
           <Button variant="Secondry" className="button button1 btn2">Change Details</Button>
            </div>
+           <div className="footer">
+           Made by Codify Technologies
+           </div>
          </div>
       </div>
         

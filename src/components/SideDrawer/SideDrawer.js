@@ -1,5 +1,6 @@
 import React from 'react';
-import {Button} from 'react-bootstrap'
+import {Button} from 'react-bootstrap';
+import profilepic from './swap.jpg';
 
 import './SideDrawer.css';
 
@@ -13,13 +14,17 @@ const sideDrawer = props => {
     <div className="profile"> Profile </div>
       <ul>
         <li>
-          <p>Name: (From Backend) </p>
+        <img src={profilepic} alt="Profile Picture"></img>
+
         </li>
         <li>
-          <p>Grade: (From Backend) </p>
+          <p>Name: Swapnil Narayan </p>
         </li>
         <li>
-          <p>Quarter: (From Backend) </p>
+          <p>Grade: II </p>
+        </li>
+        <li>
+          <p>Quarter: B-39 </p>
         </li>
       </ul>
     </nav>
